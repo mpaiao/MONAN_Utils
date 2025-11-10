@@ -27,7 +27,7 @@ options(warn=0)
 #---~---
 home.path     = path.expand("~")                     # Home directory
 main.path     = getwd()                              # Working directory
-srcdir        = file.path(home.path,"Util","Rsc")    # Path(s) with R utility scripts. This
+srcdir        = file.path(main.path,"RUtils")        # Path(s) with R utility scripts. This
                                                      #    script will pick the first path 
                                                      #    that is found.
 scolour.path  = file.path(main.path,"Original"  )    # Path with input data
