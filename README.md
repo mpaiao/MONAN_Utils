@@ -10,3 +10,4 @@ Each directory contains a set of scripts used for a specific task.
 
   - [GenSoilColour](https://github.com/mpaiao/MONAN_Utils/tree/main/GenSoilColour). These R scripts (with some interface for C) allow extracting soil colour data from CLM-5 surface files and making NoahMP fixed data sets, for initialising spatially heterogeneous soil albedo parameters. These data sets will only work with NoahMP versions that can read in such data sets. This is currently a [pull request](https://github.com/monanadmin/MONAN-Model/pull/18) in MONAN.
 
+  - [GrADS_CompareRuns](https://github.com/mpaiao/MONAN_Utils/tree/main/GrADS_CompareRuns). These GrADS scripts load the post-processed output of two MONAN simulations, and plot multiple comparison plots.
